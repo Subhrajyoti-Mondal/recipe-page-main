@@ -13,12 +13,12 @@ body{
    
 img{
     height: 300px;
-    width: 99%;
+    width: 100%;
     border-radius: 2%;
 }
 *{
     margin: 0%;
-    padding: 0%;
+    
 }
 .section1 h2{
     color: rgb(100, 10, 10);
@@ -30,7 +30,20 @@ li strong{
 }
 .purple{
     color: rgb(111, 52, 165);
+    font-size: 20px;
+    padding-left: 25px;
+
 }
 #diff{
-    background-color: rgb(240, 232, 232);
+    background-color: rgb(248, 245, 248);
 }
+#okk{
+    align-items: start;
+}
+li{
+    padding-left: 12px;
+}
+.uniq{
+    margin-left: 10px;
+}
+

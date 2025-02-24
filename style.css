@@ -1,5 +1,7 @@
 body {
     background-color: bisque;
+    display: flex;
+    justify-content: center;
   }
   .container {
     background-color: white;
@@ -42,10 +44,5 @@ body {
     padding-top: 30px;
   }
   
-  @media only screen and(max-width: 567px) {
-    body {
-      display: flex;
-      justify-content: center;
-    }
-  }
+ 
   

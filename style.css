@@ -1,52 +1,50 @@
-body{
-    background-color:bisque;
+body {
+  background-color: bisque;
 }
-.container{
-    background-color: white;
-    height: auto;
-    width: auto;
-    margin: 0% 30%;
-    padding: 20px 20px 0;
-    border-radius: 1%;
-    @media only screen and(max: width 455px;){
-display: flex; justify-content: center;
-    }
-
-    
-
-}  
-    
-   
-img{
-    height: 300px;
-    width: 99%;
-    border-radius: 2%;
+.container {
+  background-color: white;
+  height: auto;
+  width: auto;
+  margin: 0% 30%;
+  padding: 20px 20px 0;
+  border-radius: 1%;
 }
 
-.section1 h2{
-    color: rgb(100, 10, 10);
-    font-family: Georgia, cursive;
-    
-}
-li strong{
-    color: rgb(126, 54, 54);
-}
-.purple{
-    color: rgb(111, 52, 165);
-
-}
-#diff{
-    background-color: rgb(240, 232, 232);
-    padding-left: 20px;
+img {
+  height: 300px;
+  width: 99%;
+  border-radius: 2%;
 }
 
-ul li{
-    margin-bottom: 10px;
+.section1 h2 {
+  color: rgb(100, 10, 10);
+  font-family: Georgia, cursive;
+}
+li strong {
+  color: rgb(126, 54, 54);
+}
+.purple {
+  color: rgb(111, 52, 165);
+}
+#diff {
+  background-color: rgb(240, 232, 232);
+  padding-left: 20px;
 }
 
-ol li{
-    margin-bottom: 10px;
+ul li {
+  margin-bottom: 10px;
 }
-h3{
-    padding-top: 30px;
+
+ol li {
+  margin-bottom: 10px;
+}
+h3 {
+  padding-top: 30px;
+}
+
+@media only screen and(max-width: 455px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
 }
